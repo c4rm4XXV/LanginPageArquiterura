@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+}
+#menuSuperior{
+    padding-top:206px;
+    width: 1500px;
+    height: 241px;
+    background-color: #303030;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+#titleSuperior{
+    margin-left: 62px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 72px;
+}
+#textoSuperior{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: 62px;
+    margin-top: 20px;
+}
+
+#menuInformativo{
+    display: grid;
+    grid-auto-flow: column;
+    columns:auto;
+    padding-top: 72px;
+    padding-left: 171px;
+    padding-bottom: 66px;
+    background-color:  #F9F9F9;
+}
+
+.informativo{
+    margin-top: 24px;
+    margin-right: 99px;    
+}
+
+
+#textoImagem{
+    display: grid;
+    grid-auto-flow: column;
+    columns:auto;
+}
+
+#texto{
+    margin-top: 184px;
+    margin-left: 77px;
+}
+
+#divForm{
+    width: 1500px;
+    height: 450px;     
+    background-color: #303030;
+    text-align: center;
+    padding-top: 90px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+input{
+    margin: 42px 0px 24px 0px;
+    width: 408px;
+    height: 52px;
+    border-radius:5px;
+    border: 0px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+button{
+    width: 186px;
+    height: 54px;
+    margin-top: 55px;
+    background-color: #C07212;
+    border-radius: 10px;
+    border: 0px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: translateY(-10px);
+    transition: 0.25s;
+}
