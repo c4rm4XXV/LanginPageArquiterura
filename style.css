@@ -1,11 +1,11 @@
 *{
+    width: 100%;
     margin: 0px;
     font-family: 'Inter';
     font-style: normal;
 }
 #menuSuperior{
     padding-top:206px;
-    width: 1500px;
     height: 241px;
     background-color: #303030;
     text-align: justify;
